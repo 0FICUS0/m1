@@ -1,3 +1,97 @@
-p{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: Roboto, Roboto Slab, Areal;
+}
+
+.container{
+    font: Roboto;
+}
+
+.container-header{
+    padding: 36px 30px 46px 37px;
+}
+
+.logo{
+    width: 52px;
+}
+
+.conditions{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.conditions-item{
+    margin-right: 14px;
+}
+
+.conditions-icon{
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.promo-title{
+    font-family: Roboto Slab;
+    font-size: 37px;
+    margin: 0 0 2px;  
+}
+
+.promo-text{
+    font-size: 10px;
+}
+
+.promo-img{
+    display: block;
+    width: 142px;
+    margin-left: auto;
+}
+
+.viewer{
+    background-color: #1E4681;
+    color: #FFFFFF;
+
+    height: 93px;
+    width: 225px;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+.viewer-text{
+    font-family: Roboto Slab;
+    margin-bottom: 7px;
+    padding-top: 9px;
+    padding-right: 13px;
+    padding-left: 12px;
+    font-size: 11px;
+}
+
+.viewer-name{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: right;   
+    margin-right: 8px; 
+}
+
+.about{
+    font-family: Roboto;
+}
+
+.about-title{
+    font-family: Roboto Slab;
+    margin-top: 75px;
+}
+
+.about-text{
+    width: 309px;
+}
+
+.br{
+    margin-top: 10px;
+    padding-top: 10px;
 }
