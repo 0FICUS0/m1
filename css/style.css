@@ -195,7 +195,7 @@ section{
     width: 299px;
     font-size: 12px;
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .programm-ul{
@@ -236,6 +236,7 @@ footer{
 }
 
 .course{
+    padding-right: 30px;
     padding-top: 42px;
     padding-left: 36px;
     padding-bottom: 53px;
@@ -249,10 +250,9 @@ footer{
 }
 
 .course-div{
-    width: 308px;
     border-radius: 14px;
-    padding: 19px 21px 13px;
     background-color: #FFFFFF;
+
 }
 
 .course-img{
@@ -271,6 +271,32 @@ footer{
     padding-bottom: 64px;
     padding-left: 57px;
     background-color: #9DC9C8;
+}
+
+.start-h1{
+    width: 224px;
+}
+
+.start-p{
+    width: 79px;
+    margin-bottom: 0;
+}
+
+.start-ul{
+    
+    list-style: none;
+    display: flex;
+}
+
+.start-li{
+    padding: 0;
+    flex-direction: row;
+}
+
+.start-p-cost{
+    width: 224px;
+    font-size: 37px;
+    margin-top: 0;
 }
 
 
