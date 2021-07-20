@@ -2,12 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
 body{
     margin: 0;
+    padding: 0;
+
     font-family: Roboto, Roboto Slab, Areal, sans-serif;
 }
 
 .container{
     font: Roboto;
-    padding: 36px 30px 46px 37px;
+
+}
+
+header{
+    padding-top: 36px;
+    margin-left: 35px;
 }
 
 
@@ -24,6 +31,10 @@ body{
     padding-top: 45px;
 }
 
+main{
+    margin-left: 35px;
+}
+
 h1{
     font-family: Roboto Slab;
     font-size: 26px;
@@ -33,6 +44,11 @@ h1{
 p{
     font-family: Roboto;
     font-size: 12px;
+}
+
+section{
+    margin: 0;
+    padding: 0;
 }
 
 .condictions-item{
@@ -184,19 +200,18 @@ p{
 
 .programm-ul{
     list-style: none;
+
 }
 
-.how{
+.programm-li{
+    margin-bottom: 24px;
+}
+
+.programm-img{
     width: 186px;
-    border-radius: 14px;
-    box-shadow: 1px 1px 7px #000000;
 }
 
-.oscar{
-    width: 186px;
-}
-
-.how-h1{
+.programm-h1{
     margin-top: 5px;
     margin-left: 9px;
     font-family: Roboto;
@@ -204,8 +219,64 @@ p{
     font-size: 14px;
 }
 
-.how-p{
+.programm-p{
     width: 170px;
-    margin-bottom: 111px;
     margin-left: 9px;
+}
+
+.programm-div{
+    width: 186px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 7px #000000;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+.course{
+    padding-top: 42px;
+    padding-left: 36px;
+    padding-bottom: 53px;
+    background-color: #EFEFEF;
+}
+
+
+.course-p{
+    width: 266px;
+    font-size: 10px;
+}
+
+.course-div{
+    width: 308px;
+    border-radius: 14px;
+    padding: 19px 21px 13px;
+    background-color: #FFFFFF;
+}
+
+.course-img{
+    width: 80px;
+    margin-left: auto;
+}
+
+.course-h1-name{
+    width: 165px;
+    font-size: 14px;
+}
+
+.start{
+    margin: 0;
+    padding-top: 62px;
+    padding-bottom: 64px;
+    padding-left: 57px;
+    background-color: #9DC9C8;
+}
+
+
+.contacts{
+    margin: 0;
+    padding-top: 23px;
+    padding-left: 57px;
+    background-color: #000000;
 }
