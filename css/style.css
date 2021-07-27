@@ -17,6 +17,11 @@ header{
     margin-left: 35px;
 }
 
+.text{
+    font-size: 10px;
+    width: 61px;
+}
+
 
 .logo{
     width: 52px;
@@ -29,10 +34,17 @@ header{
     font-size: 10px;
     list-style: none;
     padding-top: 45px;
+    width: 61px;
+}
+
+.conditions-item{
+    flex-direction: row;
+    margin-right: 76px;
 }
 
 main{
     margin-left: 35px;
+    margin-top: 8px;
 }
 
 h1{
